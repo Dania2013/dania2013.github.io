@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gvard.github.io/sitemap.xml
+Sitemap: https://dania2013.github.io/sitemap.xml
