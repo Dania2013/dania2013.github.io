@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dania2013.github.io/sitemap.xml
