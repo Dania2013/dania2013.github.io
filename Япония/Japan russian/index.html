@@ -7,7 +7,7 @@
     <style>
         body {
             font-size: 16pt;
-            background-color: rgb(214, 217, 229);
+            background-color: rgb(138, 152, 207);
         }
         h1 {
             margin: 0 auto;
@@ -18,7 +18,7 @@
         h2 {
             margin: 0 auto;
             width: fit-content;
-            color: rgb(231, 120, 18);
+            color: rgb(174, 117, 36);
         }
         main {
             margin: 0 auto;
@@ -61,13 +61,25 @@
     background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
     color: #a00;
    }
+   #square {
+    border-bottom:  2px solid black;
+    border-right: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+   }
+   #p {
+   width: 70%;
+   margin: 0 auto;
+   }
     </style>
 </head>
 <body>
     <menu>
+        <a href="../../zhivotnye/index.html">Интересные факты о кошках</a>
     </menu>
-    <main>
-        <h1>Содержание</h1>
+    <div id="square">
+        <div id="p">
+            <h1>Содержание</h1>
         <br>
         <a href="#первый">1.Территория Японии, географическое положение</a>
         <br>
@@ -85,6 +97,9 @@
         <br>
         <br>
         <a href="#шестой">6.Природа Японии</a>
+        </div>
+    </div>
+    <main>
         <h2>Территория Японии, географическое положение</h2>
         <p id="первый">Основные особенности географического положения:
             <li>островное положение: находится на территории Японского архипелага. Около 95% территории страны приходится на крупнейшие острова — Хонсю, Кюсю, Сикоку и Хоккайдо;</li>
@@ -110,6 +125,23 @@
             <h2>Природа Японии</h2>
             <p id="шестой">    </p>
             </p>
+            <p class="question">1. Какой тег самый главный?</p>
+<ol>
+  <li>
+    <input class="answer" type="radio" name="q1" value="1" id="a11">
+    <label for="a11" id="correctString1">html</label>
+  </li><li>
+    <input class="answer" type="radio" name="q1" value="0" id="a12">
+    <label for="a12">head</label>
+  </li><li>
+    <input class="answer" type="radio" name="q1" value="0" id="a13">
+    <label for="a13">body</label>
+  </li><li>
+    <input class="answer" type="radio" name="q1" value="0" id="a14">
+    <label for="a14">http</label>
+  </li>
+</ol>
+</div>
     </main>
 </body>
 </html>
