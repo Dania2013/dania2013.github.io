@@ -125,6 +125,12 @@
             <h2>Природа Японии</h2>
             <p id="шестой">    </p>
             </p>
+            <h1>Тест на знание HTML!</h1>
+            <link rel="stylesheet" href="../style.css">
+            <link rel="stylesheet" href="quiz.css">
+            <script src="quiz.js"></script>
+<div class="container testfield">
+<div class="testitem">
             <p class="question">1. Какой тег самый главный?</p>
 <ol>
   <li>
@@ -142,6 +148,76 @@
   </li>
 </ol>
 </div>
+<div class="testitem">
+    <p class="question">2. Какой тег лишний?</p>
+    <ol>
+      <li>
+        <input class="answer" type="radio" name="q2" value="0" id="a21">
+        <label for="a21">div</label>
+      </li><li>
+        <input class="answer" type="radio" name="q2" value="1" id="a22">
+        <label for="a22" id="correctString2">img</label>
+      </li><li>
+        <input class="answer" type="radio" name="q2" value="0" id="a23">
+        <label for="a23">p</label>
+      </li><li>
+        <input class="answer" type="radio" name="q2" value="0" id="a24">
+        <label for="a24">h1</label>
+      </li>
+    </ol>
+    </div>
+    <div class="testitem">
+        <p class="question">3. Какой тег является строчным?</p>
+        <ol>
+          <li>
+            <input class="answer" type="radio" name="q3" value="0" id="a31">
+            <label for="a31">p</label>
+          </li><li>
+            <input class="answer" type="radio" name="q3" value="1" id="a32">
+            <label for="a32" id="correctString3">span</label>
+          </li><li>
+            <input class="answer" type="radio" name="q3" value="0" id="a33">
+            <label for="a33">h1</label>
+          </li><li>
+            <input class="answer" type="radio" name="q3" value="0" id="a34">
+            <label for="a34">div</label>
+          </li>
+        </ol>
+        </div>
+        
+        <div class="testitem">
+        <p class="question">4. Какой тег является блочным?</p>
+        <ol>
+          <li>
+            <input class="answer" type="radio" name="q4" value="0" id="a41">
+            <label for="a41">img</label>
+          </li><li>
+            <input class="answer" type="radio" name="q4" value="1" id="a42">
+            <label for="a42" id="correctString4">div</label>
+          </li><li>
+            <input class="answer" type="radio" name="q4" value="0" id="a43">
+            <label for="a43">i</label>
+          </li><li>
+            <input class="answer" type="radio" name="q4" value="0" id="a44">
+            <label for="a44">a</label>
+          </li>
+        </ol>
+        </div>
+        </div>
+        
+        <br>
+        <div class="testfield">
+          <div class="btn">
+            <input class="quizSubmit" id="submitButton" onClick="submitQuiz()" type="submit" value="Проверить" size="9">
+          </div>
+          <!--Для правильных ответов-->
+          <div class="quizAnswers" id="correctAnswer1"></div>
+          <div class="quizAnswers" id="correctAnswer2"></div>
+          <div class="quizAnswers" id="correctAnswer3"></div>
+          <div class="quizAnswers" id="correctAnswer4"></div>
+          <!--Для вывода результата-->
+          <h2 class="quizScore" id="userScore">&nbsp;</h2>
+        </div>
     </main>
 </body>
 </html>
