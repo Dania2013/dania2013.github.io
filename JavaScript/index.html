@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Java</h1>
+    <button id="b" onmousemove="repl()" onmousewheel="repz()">zzz</button>
+    <script defer>
+        h1 = document.getElementById("h1");
+        console.log(h1.innerText);
+        function repl() {
+            h1.innerText = "Python";
+        }
+        function repz() {
+            h1.innerText = "C++";
+        }
+    </script>
+</body>
+</html>
